@@ -6,10 +6,10 @@
     $config->set('modelFolder', 'model/');
     $config->set('viewFolder', 'view/');
     
-    $config->set('dbhost', 'localhost');
-    $config->set('dbname', 'lenguajes');
-    $config->set('dbuser', 'root');
-    $config->set('dbpass', '');
+    $config->set('dbhost', 'atlanticmarket-mysqldbserver.mysql.database.azure.com');
+    $config->set('dbname', 'mysqldatabase33903');
+    $config->set('dbuser', 'mysqldbuser@atlanticmarket-mysqldbserver');
+    $config->set('dbpass', '25351211ppac!');
     
     
 ?>
