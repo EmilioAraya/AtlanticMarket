@@ -6,7 +6,7 @@ class SPDO extends PDO{
    
    public function __construct() {
        $config= Config::singleton();
-       parent::__construct('mysql:host='.$config->get('dbhost').';dbname='.$config->get('dbname'),
+       parent::__construct('sqlsrv:server='.$config->get('dbhost').';dbname='.$config->get('dbname'),
                $config->get('dbuser'), $config->get('dbpass'));
                
    } // constructor
